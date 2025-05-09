@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load the trained Keras model
-model = load_model("best_model.h5")
+model = load_model("best_model(1).h5")
 
 # Example list of expected features (must match training order)
 FEATURE_NAMES = [
